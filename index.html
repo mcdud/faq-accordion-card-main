@@ -16,11 +16,20 @@
     <header><!--empty--></header>
     <main>
       <section class="card">
-        <img src="/images/illustration-woman-online-mobile.svg" alt="" />
+        <section class="card__hero">
+          <img
+            src="/images/illustration-woman-online-mobile.svg"
+            class="card__hero-image"
+          />
+          <img
+            src="/images/bg-pattern-mobile.svg"
+            class="card__hero-image-shadow"
+          />
+        </section>
         <section class="card__faq">
           <h1 class="card__faq-header">FAQ</h1>
-          <section class="card__faq-questions">
-            <article class="card__faq-question-container">
+          <ul class="card__faq-questions">
+            <li class="card__faq-question-container">
               <h2 class="card__faq-question">
                 How many team members can I invite?
               </h2>
@@ -28,31 +37,31 @@
                 You can invite up to 2 additional users on the Free plan. There
                 is no limit on team members for the Premium plan.
               </p>
-            </article>
-            <article class="card__faq-question-container">
-              <h2 class="card__faq-question">
+            </li>
+            <li class="card__faq-question-container">
+              <h2 class="card__faq-question faq-question--active">
                 What is the maximum file upload size?
               </h2>
-              <p class="card__faq-answer">
+              <p class="card__faq-answer faq-answer--visible">
                 No more than 2GB. All files in your account must fit your
                 allotted storage space.
               </p>
-            </article>
-            <article class="card__faq-question-container">
+            </li>
+            <li class="card__faq-question-container">
               <h2 class="card__faq-question">How do I reset my password?</h2>
               <p class="card__faq-answer">
                 Click “Forgot password” from the login page or “Change password”
                 from your profile page. A reset link will be emailed to you.
               </p>
-            </article>
-            <article class="card__faq-question-container">
+            </li>
+            <li class="card__faq-question-container">
               <h2 class="card__faq-question">Can I cancel my subscription?</h2>
               <p class="card__faq-answer">
                 Yes! Send us a message and we’ll process your request no
                 questions asked.
               </p>
-            </article>
-            <article class="card__faq-question-container">
+            </li>
+            <li class="card__faq-question-container">
               <h2 class="card__faq-question">
                 Do you provide additional support?
               </h2>
@@ -60,8 +69,8 @@
                 Chat and email support is available 24/7. Phone lines are open
                 during normal business hours.
               </p>
-            </article>
-          </section>
+            </li>
+          </ul>
         </section>
       </section>
     </main>
