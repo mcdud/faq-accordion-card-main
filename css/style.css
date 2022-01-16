@@ -94,7 +94,7 @@ body {
 }
 
 .card__faq-question::after {
-  content: url("images/icon-arrow-down.svg");
+  content: url("../images/icon-arrow-down.svg");
   position: absolute;
   right: 0;
 }
@@ -138,7 +138,7 @@ body {
     position: absolute;
     top: 200px;
     left: -90px;
-    content: url("images/illustration-box-desktop.svg");
+    content: url("../images/illustration-box-desktop.svg");
     z-index: 9;
   }
 
